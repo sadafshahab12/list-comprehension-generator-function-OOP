@@ -16,3 +16,6 @@ You want to avoid repeating code
 
 You want your code to be cleaner and shorter
 
+## String
+- a string is a sequence of characters enclosed in quotes (either single, double, or triple quotes). 
+- Strings are immutable, meaning they cannot be changed after they are created.
