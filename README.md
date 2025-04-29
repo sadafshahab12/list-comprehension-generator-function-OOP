@@ -19,3 +19,10 @@ You want your code to be cleaner and shorter
 ## String
 - a string is a sequence of characters enclosed in quotes (either single, double, or triple quotes). 
 - Strings are immutable, meaning they cannot be changed after they are created.
+
+## Unicode Character
+- print(r"\u0041 = ", "\u0041")
+- r"\u0041" is a raw string — the r in front tells Python not to process escape sequences.
+- "\u0041" is processed — Python sees \u0041 as a Unicode escape for the character 'A'.
+- Show the literal text of escape characters like \n, \t, \u etc.
+- Prevent Python from interpreting them.
