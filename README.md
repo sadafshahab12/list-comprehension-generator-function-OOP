@@ -36,3 +36,7 @@ find() → Finds substring, returns -1 if not found (safer).
 
 
 **Interning** is a process where Python stores only one copy of certain strings in memory and reuses them whenever the same string is used again.
+- Explicit interning: You can manually intern a string using the sys.intern() function.
+
+
+String interning is also known as "string caching" or "string sharing".
