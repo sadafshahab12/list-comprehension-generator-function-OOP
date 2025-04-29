@@ -26,3 +26,10 @@ You want your code to be cleaner and shorter
 - "\u0041" is processed — Python sees \u0041 as a Unicode escape for the character 'A'.
 - Show the literal text of escape characters like \n, \t, \u etc.
 - Prevent Python from interpreting them.
+
+index() → Finds substring, raises error if not found.
+find() → Finds substring, returns -1 if not found (safer).
+
+
+- The % operator is an older way of formatting strings in Python.
+- Yes, order matters when using string formatting in Python,
