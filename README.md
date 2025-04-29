@@ -33,3 +33,6 @@ find() → Finds substring, returns -1 if not found (safer).
 
 - The % operator is an older way of formatting strings in Python.
 - Yes, order matters when using string formatting in Python,
+
+
+**Interning** is a process where Python stores only one copy of certain strings in memory and reuses them whenever the same string is used again.
