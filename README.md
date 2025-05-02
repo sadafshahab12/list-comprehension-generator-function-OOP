@@ -52,3 +52,11 @@ This method is suitable when you are sure that the item exists in the set.
 The **discard()** method also removes the specified item from the set.
 However, if the item is not found in the set, it does not raise any error. It simply does nothing.
 This method is suitable when you are not sure if the item exists in the set.
+
+
+## set 
+- Set har item ka hash banata hai.
+- Is hash se item ki position decide hoti hai.
+- Isi wajah se:
+- Order fix nahi hota.
+- Lookup, insert, remove — sab fast hote hain (O(1) time).
