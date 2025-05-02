@@ -40,3 +40,15 @@ find() → Finds substring, returns -1 if not found (safer).
 
 
 String interning is also known as "string caching" or "string sharing".
+
+**remove() method**:
+
+The **remove()** method removes the specified item from the set.
+If the item is not found in the set, it raises a KeyError.
+This method is suitable when you are sure that the item exists in the set.
+
+**discard() method:**
+
+The **discard()** method also removes the specified item from the set.
+However, if the item is not found in the set, it does not raise any error. It simply does nothing.
+This method is suitable when you are not sure if the item exists in the set.
