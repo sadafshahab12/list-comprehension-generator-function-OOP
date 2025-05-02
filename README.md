@@ -53,6 +53,11 @@ The **discard()** method also removes the specified item from the set.
 However, if the item is not found in the set, it does not raise any error. It simply does nothing.
 This method is suitable when you are not sure if the item exists in the set.
 
+### 📊 What is Load Factor?
+Load Factor = (number of items) ÷ (total available slots)
+
+If this ratio gets too high (e.g., 0.66 or 66%), Python decides to rehash to avoid collisions and keep performance fast.
+
 
 ## set 
 - Set har item ka hash banata hai.
